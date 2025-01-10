@@ -75,7 +75,7 @@
                 messageElement.textContent = 'Too high! Try again.';
             } else {
                 messageElement.textContent = `Congratulations! ${guess} is correct! It took you ${attempts} attempts.`;
-                document.getElementById('playAgainButton').style.display = 'block'; // Show "Play Again" button
+                document.getElementById('playAgainButton').style.display = 'block'; 
             }
         } 
 
@@ -84,7 +84,7 @@
             attempts = 0;
             document.getElementById('guess').value = '';
             document.getElementById('message').textContent = '';
-            document.getElementById('playAgainButton').style.display = 'none'; // Hide "Play Again" button
+            document.getElementById('playAgainButton').style.display = 'none'; 
         }
     </script>
 </body>
